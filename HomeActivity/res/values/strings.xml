@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Activity titles -->
+    <string name="app_name">Pembelajaran IPA</string>
+    <string name="ac_name_image_list">Materi</string>
+    <string name="ac_name_image_grid">Galeri</string>
+    <string name="ac_name_image_pager">Pembelajaran IPA</string>
+    <string name="ac_name_image_gallery">Galeri</string>
+    <!-- Labels -->
+    <string name="label_activity_examples">Pembelajaran IPA</string>
+    <string name="menu_item_clear_memory_cache">Clear memory cache</string>
+    <string name="menu_item_clear_disc_cache">Clear disc cache</string>
+    <string name="menu_item_pause_on_scroll">Pause on scroll</string>
+    <string name="menu_item_pause_on_fling">Pause on fling</string>
+    <string name="button_image_list">Pembelajaran IPA</string>
+    <string name="button_image_grid">Galeri</string>
+    <string name="button_image_pager">Detail Aplikasi</string>
+    <string name="button_image_gallery">Soal Latihan</string>
+    <string name="button_help">Bantuan</string>
+    <string name="content_help">
+        Langkah-langkah penggunaan aplikasi antara lain :
+        \n
+        \n (1) Klik menu Materi untuk melihat Bab-Bab \n
+        		\n Selanjutnya klik gambar yang muncul untuk melihat isi materi \n
+        		\n maka akan muncul tampilan judul,foto dan deskripsi materi\n 
+        \n (2) Klik menu galeri untuk melihat kumpulan foto semua Bab \n
+        		\n Selanjutnya klik salah satu foto \n
+        		\n maka akan muncul tampilan judul,foto,dan deskripsi materi\n      	
+    </string>
+    <!-- Content descriptions -->
+    <string name="descr_image">Gambar</string>
+    <string name="bahan">Bab 1\n3 Deskripsi\n2 siung bawang putih, memarkan\n6 sendok makan saus tomat\n2 sendok makan saus sambal\n5 sendok makan air\n200 gram nanas, potong segitiga\n50 gram kacang polong\nGaram, gula pasir secukupnya\nMinyak goreng secukupnya</string>
+    <string name="penyajian">1. Lumuri ayam dengan garam. Goreng dalam minyak panas hingga matang. Angkat, tiriskan.\n2. Panaskan 3 sendok makan minyak goreng, tumis bawang bombay, bawang putih hingga harum.\n3. Masukkan saus tomat, saus sambal, air, garam, gula pasir. Masakn hingga matang. Tambahkan nanas, kacang polong. Aduk rata, masak sebentar. Angkat.\n4. Tata ayam dalam piring saji, siram dengan saus asam manis.</string>
+    <string name="title_activity_help">Bantuan</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">Pembelajaran IPA</string>
+
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top" >
+        
+        <TextView
+	        android:id="@+id/judul"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:textSize="30sp"
+	        android:padding="20sp"/>
+        
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_below="@id/judul"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/descr_image" />
+        
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_below="@id/image" 
+            android:padding="20sp" >
+            
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:layout_gravity="center|top" >
+                
+                <TextView
+			        android:id="@+id/intro"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:singleLine="false"
+			        android:padding="20sp"
+			        android:textSize="20sp" />
+                
+                <TextView
+			        android:id="@+id/bahan"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_below="@id/intro"
+			        android:text="@string/bahan"
+			        android:singleLine="false"
+			        android:padding="20sp"
+			        android:textSize="20sp" />
+	        
+		        <TextView
+			        android:id="@+id/penyajian"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_below="@id/bahan"
+			        android:text="@string/penyajian"
+			        android:singleLine="false"
+			        android:padding="20sp" 
+			        android:textSize="20sp" />
+	      
+            </RelativeLayout>
+            
+        </ScrollView>
+        
+    </RelativeLayout>
+    
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+</FrameLayout> 
+
+

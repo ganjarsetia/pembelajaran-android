@@ -1,0 +1,39 @@
+# view res/layout/ac_image_pager.xml #generated:2
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class com.ririn.imageloader.HelpActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:18
+-keep class com.ririn.imageloader.HomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class com.ririn.imageloader.ImageGalleryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:26
+-keep class com.ririn.imageloader.ImageGridActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:23
+-keep class com.ririn.imageloader.ImageListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class com.ririn.imageloader.ImagePagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class com.ririn.imageloader.SplashActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:14
+-keep class com.ririn.imageloader.UILApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class com.ririn.widget.UILWidgetProvider { <init>(...); }
+
+# onClick res/layout/ac_home.xml #generated:34
+-keepclassmembers class * { *** onHelpClick(...); }
+
+# onClick res/layout/ac_home.xml #generated:27
+-keepclassmembers class * { *** onImageGridClick(...); }
+
+# onClick res/layout/ac_home.xml #generated:20
+-keepclassmembers class * { *** onImageListClick(...); }
+

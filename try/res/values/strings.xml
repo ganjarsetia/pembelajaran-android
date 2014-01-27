@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Activity titles -->
+    <string name="app_name">IPA Kelas 6 SD</string>
+    <string name="ac_name_image_list">Materi</string>
+    <string name="ac_name_image_grid">Materi</string>
+    <string name="ac_name_image_pager">Semester 1</string>
+    <string name="ac_name_image_gallery">Materi</string>
+    <!-- Labels -->
+    <string name="label_activity_examples">Pembelajaran IPA</string>
+    <string name="menu_awal1">Kurikulum 2012</string>
+    <string name="menu_awal2">Kurikulum 2013</string>
+    <string name="menu_awal3">Pilih Semester</string>
+    <string name="menu_item_clear_memory_cache">Clear memory cache</string>
+    <string name="menu_item_clear_disc_cache">Clear disc cache</string>
+    <string name="menu_item_pause_on_scroll">Pause on scroll</string>
+    <string name="menu_item_pause_on_fling">Pause on fling</string>
+    <string name="button_image_list">Semester 1</string>
+    <string name="button_image_grid">Semester 2</string>
+    <string name="button_image_pager">Detail Aplikasi</string>
+    <string name="button_image_gallery">Soal Latihan</string>
+    <string name="button_help">Bantuan</string>
+    <string name="content_help">
+        Langkah-langkah penggunaan aplikasi antara lain :
+        \n
+        \n (1) Klik menu Materi untuk melihat Bab-Bab \n
+        		\n Selanjutnya klik gambar yang muncul untuk melihat isi materi \n
+        		\n maka akan muncul tampilan judul,foto dan deskripsi materi\n 
+        \n (2) Klik menu galeri untuk melihat kumpulan foto semua Bab \n
+        		\n Selanjutnya klik salah satu foto \n
+        		\n maka akan muncul tampilan judul,foto,dan deskripsi materi\n      	
+    </string>
+    <!-- Content descriptions -->
+    <string name="descr_image">Gambar</string>
+    <string name="materi1">Semester 1</string>
+    <string name="materi2">Semester2</string>
+    <string name="title_activity_help">Bantuan</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">Pembelajaran IPA</string>
+
+</resources>
